@@ -14,19 +14,19 @@
 			
 		function arrancar (){
 
-			echo "Estoy arrancando";
+			echo "Estoy arrancando<br>";
 
 		}
 		
 		function girar (){
 			
-			echo "Estoy girando";
+			echo "Estoy girandoooo<br>";
 			
 		}
 		
 		function frenar (){
 
-			echo "estoy frenendo";
+			echo "estoy frenendo<br>";
 
 		}
 
@@ -37,6 +37,8 @@ $mazda=new Coche();
 $chevrolet=new Coche();
 
 $mazda->girar();
-echo $mazda->ruedas;
+$mazda->arrancar();
+$mazda->frenar();
+echo "Soy mazda y tengo " . $mazda->ruedas;
 
 ?>
