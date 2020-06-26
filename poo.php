@@ -1,40 +1,43 @@
 <?php
 
-class Coche {
+	class Coche {
 	
-	var $ruedas;
-	var $color;
-	var $Motor;
+		public $color;
+		public $Motor;
+		public $ruedas;
 		
-	function Coche (){
-		$this->ruedas=4;
-		$this->color="Rojo";
-		$this->Motor="1600cc";
-	}
-		
-		
-	function arrancar (){
-		
-		
-	}
-	
-	function girar (){
-		
-		
-	}
-	
-	function frenar (){
-		
-		
-	}
-	
-	
-}
+		function __construct (){ //constructor
+			$this->ruedas=4;
+			$this->color="Rojo";
+			$this->Motor="1600cc";
+		}
+			
+		function arrancar (){
 
-$renault=new Coche();
+			echo "Estoy arrancando";
+
+		}
+		
+		function girar (){
+			
+			echo "Estoy girando";
+			
+		}
+		
+		function frenar (){
+
+			echo "estoy frenendo";
+
+		}
+
+	}
+
+$renault=new Coche(); //estado inicial
 $mazda=new Coche();
 $chevrolet=new Coche();
 
+$mazda->girar();
+echo $mazda->ruedas;
 
 
 ?>

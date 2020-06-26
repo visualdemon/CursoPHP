@@ -14,7 +14,14 @@ echo("Hola mundo php");
 ?>
 
 <body>
-
+	
+	<nav class="menu" id="menu-p">
+		<ul>
+			<li>Home</li>
+			<li>About</li>
+			<li>Contact</li>
+		</ul>
+	</nav>
 <div class="mia" id="prueba">Colocar aquí el contenido para  class "mia" id "prueba"</div>
 </body>
 </html>
