@@ -6,7 +6,7 @@
 <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 	<h1>Hola mundo</h1>
-	<p>Cascada de mierda pura</p>
+	<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, nemo at dolorum blanditiis mollitia sunt provident odio repudiandae possimus nobis fugit ex non laudantium quaerat vitae, suscipit, culpa laboriosam iste!</p>
 <?php
 	
 echo("Hola mundo php");
