@@ -40,5 +40,3 @@ $mazda->girar();
 $mazda->arrancar();
 $mazda->frenar();
 echo "Soy mazda y tengo " . $mazda->ruedas;
-
-?>
