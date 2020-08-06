@@ -1,5 +1,7 @@
 <?php
 
+echo " <h1>  Ejercicio de POO </h1>";
+
 	class Coche {
 	
 		public $color;
