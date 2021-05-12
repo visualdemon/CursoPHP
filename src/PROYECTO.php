@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="Es">
 <head>
 <meta charset="utf-8">
 <title>Documento sin título</title>

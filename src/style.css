@@ -1,0 +1,18 @@
+@charset "utf-8";
+#foot {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+    color: #fafafa;
+    background-color: #393939;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+h1 {
+    font-family: "Adobe Arabic";
+    font-size: 3.2em;
+    color: brown;
+    text-align: center;
+}
